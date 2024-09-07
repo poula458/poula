@@ -1,0 +1,64 @@
+body {
+    background-color: #c1cedc;
+}
+
+.fa-logo {
+    color: #11468b;
+    font-size: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fa-text {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login input {
+    height: 35px;
+    border: 1px #ccc solid;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin: 15px auto;
+}
+
+.lgn-btn {
+    background-color: #1f65c1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 100%;
+    padding: 15px;
+    margin: 20px auto;
+}
+
+.login{
+background-color: white;
+margin-top: 5%;
+width: 30%;
+border-radius: 5px;
+padding: 5px;
+text-align:center ;
+box-shadow: 0 4px 8px 1px #929096fe;
+}
+
+.reg-btn {
+    background-color: #469e36;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 15px;
+}
+
+section { 
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    color: #11468b;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
