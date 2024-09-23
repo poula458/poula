@@ -1,9 +1,9 @@
 body {
-    background-color: #c1cedc;
+    background-color: #ecf1f6;
 }
 
 .fa-logo {
-    color: #11468b;
+    color: #0866ff;
     font-size: 80px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -19,46 +19,68 @@ body {
     border-radius: 5px;
     display: block;
     width: 100%;
-    padding: 15px;
+    padding: 10px;
     margin: 15px auto;
 }
 
 .lgn-btn {
-    background-color: #1f65c1;
+    background-color: #0866ff;
     color: #fff;
     border: none;
     border-radius: 5px;
     font-size: 18px;
     width: 100%;
-    padding: 15px;
-    margin: 20px auto;
+    padding: 10px;
+    margin: 15px auto;
+    transition: all 1s;
 }
 
-.login{
-background-color: white;
-margin-top: 5%;
-width: 30%;
-border-radius: 5px;
-padding: 5px;
-text-align:center ;
-box-shadow: 0 4px 8px 1px #929096fe;
+.lgn-btn:hover {
+    background-color: #4b86e3;
+    box-shadow: 0 10px 8px 4px #282d4a;
+
 }
 
+.login {
+    background-color: #fff;
+    margin-top: 5%;
+    width: 30%;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px 1px #d5d5d5;
+}
 .reg-btn {
     background-color: #469e36;
     color: #fff;
     border: none;
     border-radius: 5px;
     font-size: 18px;
-    padding: 15px;
+    padding: 10px;
+    animation-name: poula;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition: 1s;
 }
-
+.reg-btn:hover {
+    font-size: 25px;
+    box-shadow: 0px 10px 2.5px 4px rgb(29, 53, 25);
+}
 section { 
     display: flex;
     justify-content: space-around;
 }
-a{
+
+a {
     color: #11468b;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@keyframes poula {
+    0%{background-color: #30fe02;}
+    25%{background-color: rgb(4, 37, 252);}
+    50%{background-color: rgb(228, 248, 6);}
+    75%{background-color: red;}
+    100%{background-color: rgb(13, 255, 0);}
 }
