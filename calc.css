@@ -1,0 +1,31 @@
+body {
+    background-image: linear-gradient(rgb(254, 3, 3), rgb(254, 253, 253), rgb(0, 0, 0)
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.calc {
+    margin: 10px auto;
+    width: fit-content;
+    border: #685f5f 2px solid;
+    padding: 4px;
+    text-align: center;
+}
+
+.calc .result {
+    background-color: #fff;
+    width: 90%;
+    height: 45px;
+    text-align: center;
+    border: 0;
+    margin: 5px auto;
+    box-shadow: 0px 1px 6px 1px #647281;
+    border-radius: 5px;
+}
+
+.calc input {
+    width: 28%;
+    display: inline-block;
+    font-size: 25px;
+}

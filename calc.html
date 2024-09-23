@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="calc.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myfirst calculator</title>
+</head>
+<body>
+
+    <section>
+        <div class="calc">
+        <form>
+            <input class="result" readonly type="text" name="result">
+            <input type="button" value="1" onclick="result.value += '1'">
+            <input type="button" value="2" onclick="result.value += '2'">
+            <input type="button" value="3" onclick="result.value += '3'">
+            <input type="button" value="4" onclick="result.value += '4'">
+            <input type="button" value="5" onclick="result.value += '5'">
+            <input type="button" value="6" onclick="result.value += '6'">
+            <input type="button" value="7" onclick="result.value += '7'">
+            <input type="button" value="8" onclick="result.value += '8'">
+            <input type="button" value="9" onclick="result.value += '9'">
+            <input type="button" value="0" onclick="result.value += '0'">
+            <input type="button" value="+" onclick="result.value += '+'">
+            <input type="button" value="-" onclick="result.value += '-'">
+            <input type="button" value="x" onclick="result.value += '*'">
+            <input type="button" value="/" onclick="result.value += '/'">
+            <input type="button" value="=" onclick=" result.value = eval(result.value)">
+            <input type="button" value="C" onclick="result.value = ''">
+            <input type="button" value="D" onclick="result.value = result.value.toString().slice(0,-1)">
+
+        </form>
+        </div>
+    </section>
+
+
+ 
+
+    <script src="calc.js"></script>
+</body>
+</html>
