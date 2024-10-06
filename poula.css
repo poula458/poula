@@ -1,0 +1,71 @@
+.my-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #A04747;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height:70px;
+}
+.img-info{
+    display: flex;
+}
+.img-info p{
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #343131;
+    justify-content: first baseline;
+}
+.nav-list li{
+    display: inline-block;
+    margin: 0 15px;
+}
+header{
+background-color:#EEDF7A;
+
+}
+.nav-list a{
+    text-decoration: none;
+    color: #343131;
+    transition: 0.5s;
+    font-size: 20px;
+}
+.nav-list a:hover{
+    font-size: 22px;
+    color: #df5a5a;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.home button{
+    background-color: aqua;
+    color: white;
+    font-size: 20px;
+    transition: 1s;
+}
+.home button:hover{
+    background-color: rgb(13, 119, 119);
+    color: rgb(255, 235, 210);
+    box-shadow: 0 2px 4px 1px black;
+    font-size: 22px;
+}
+.home{
+    text-align: center;
+    padding: 170px 10px;
+    background-image:url(WhatsApp\ Image\ 2024-10-05\ at\ 15.35.10_60286573.jpg);    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+.home h1{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.home p{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
