@@ -40,18 +40,11 @@ background-color:#EEDF7A;
 body{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 .home button{
     background-color: aqua;
     color: white;
-    font-size: 20px;
-    transition: 1s;
-}
-.home button:hover{
-    background-color: rgb(13, 119, 119);
-    color: rgb(255, 235, 210);
-    box-shadow: 0 2px 4px 1px black;
-    font-size: 22px;
 }
 .home{
     text-align: center;
@@ -68,4 +61,54 @@ body{
 .home p{
     font-size: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.h2-min{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 15%;
+}
+.div-up{
+    border:2px solid;
+    width: 25px;
+    margin: 0 auto;
+    border-radius: 5px;
+    border-color: #EEDF7A;
+}
+.p-ar{
+    width: 70%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 auto;
+    text-align: center;
+    color: #555;
+}
+.h3-kop{
+    margin-top: 20%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.my-skills{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20%;
+    text-align: center;
+}
+.about button{
+    margin: 5px;
+}
+.con{
+    margin-top: 5%;
+    border-radius: 15%;
+    background-color: #EEDF7A;
+    color: #000;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 1s;
+    box-shadow: 0 1px 2px 2px;
+}
+.con:hover{
+
+}
+.ab{
+    font-weight: bold;
 }
