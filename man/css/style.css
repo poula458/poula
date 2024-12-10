@@ -1,0 +1,236 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+nav li{
+    list-style: none; 
+    
+    display: inline-block;
+    padding: 0 5px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+}
+.header{
+    background-image: url('../imgs/hero-bg.jpg');
+    height: 500px;
+    padding: 15px;
+    background-position: center;
+    background-size: cover;
+    
+} 
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+nav img{
+    top: 10px;
+    position: relative;
+}
+nav label {
+    position: absolute;
+    top: 17px;
+    font-size: 20px;
+    
+}
+.h-2{
+    color: #ffffff;
+    text-transform: uppercase;
+     
+    margin-top: 100px;
+    font-size: 50px;
+}
+.h-1{
+    color: #cf5225;
+    text-transform: uppercase;
+    
+    font-size: 50px;
+}
+.header p{
+    color: #ffffff;
+    font-size: 20px;
+    
+}
+.btn-banner{
+    color: #ffffff;
+    background-color: #cf5225;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px; 
+    transition: 0.5s;
+}
+.btn-banner:hover{
+    background-color: transparent;
+    color: #cf5225;
+    border: #cf5225 2px solid;
+}
+.about-img{
+    
+    font-size: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: left; 
+    width: 50%;
+    height: auto;
+       
+}
+.about-text{
+    display: inline-block;
+    justify-content: space-between;
+    padding: 15px;
+    width: 45%;
+    text-align: left;
+}
+.about{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+.about p{
+    color: #000;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.about h3{
+    font-size: 50px;
+    color: #cf5225;
+
+}
+.about-text button{
+    background-color: #cf5225;
+    color: #ffffff; 
+     font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px; 
+    transition: 0.5s;
+}
+.about-text button:hover{
+    background-color: transparent;
+    color: #cf5225;
+    border: #cf5225 2px solid;
+}
+div nav li{
+    list-style: none; 
+    display: inline-block;
+    padding: 0 5px;
+}
+div nav{
+    display: flex;
+    justify-content: space-between;
+    color: #000000;
+}
+.service-detail{
+    display: inline;
+    padding: 25px;
+    width: 45%;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.service h4{
+    display: block;
+   
+ 
+}
+.btn-xp{
+    color: #cf5225;
+    background-color: #ffffff;
+    border: #cf5225 2px solid;
+    font-size: 20px;
+}
+
+.service,.quote,.touch{
+    background-image: url(/man/imgs/body_bg.jpg);
+}
+.service-body {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.service img {
+    width: 50px;
+    height: 50px;
+}
+.quote{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+}
+.quote h3{
+    font-size: 20px;
+    text-align: start;
+}
+.quote p{
+    text-align: start;
+    display: block;
+}
+.quote button{
+    color: #ffffff;
+    background-color: #cf5225;
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    transition: 0.5s;
+    display: inline-block;
+    justify-content: space-around;
+    align-items: flex-end;
+    box-align: right;
+}
+.quote button:hover{
+    background-color: #ffffff;
+    color: #cf5225;
+    border: #cf5225 2px solid;
+}
+.touch{
+    margin: 0 auto;
+    text-align: center;
+   margin-top: -20px;
+   display: flex;
+   background-color: #ffffff;
+}
+.touch label{
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+}
+.touch label input{
+    font-size: 25px;
+    background-color: #1c1b2d;
+    color: #ffffff;
+
+}
+.touch button{
+    color: #ffffff;
+    background-color: #cf5225;
+    font-size: 45px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    transition: 0.5s;
+    margin-top: 30px;
+}
+.touch button:hover{
+    background-color: #ffffff;
+    color: #cf5225;
+    border: #cf5225 2px solid;
+}
+.touch img{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 10px;
+    width: 45%;
+    text-align: center;
+}
